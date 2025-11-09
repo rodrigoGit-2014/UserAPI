@@ -15,10 +15,10 @@ public class UserResponseDto {
     private UUID id;
     private String name;
     private String email;
-    private List<PhoneRequestDto> phones;
+    private List<PhoneResponseDto> phones;
     private LocalDateTime created;
     private LocalDateTime modified;
     private LocalDateTime lastLogin;
     private String token;
-    private boolean isActive;
+    private boolean active;
 }

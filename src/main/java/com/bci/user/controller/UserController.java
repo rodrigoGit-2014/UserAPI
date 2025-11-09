@@ -18,14 +18,12 @@ public class UserController {
 
     private final IUserService userService;
 
-    // Registro de usuario
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
     public UserResponseDto register(@Valid @RequestBody UserRequestDto request) {
         return userService.register(request);
     }
 
-    // (Opcional) Obtener usuario por id
     @GetMapping("/{id}")
     public UserResponseDto getById(@PathVariable UUID id) {
         return userService.findById(id);
