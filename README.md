@@ -215,4 +215,4 @@ GET http://localhost:8080/api/v1/users/7a53f9ee-05f1-47da-b1ab-43db8f54a198
 
 **Rodrigo Cáceres Valdés**  
 Backend Developer | Java & Spring Boot  
-📧 rodrigo.caceres@example.com
+📧 rodrigocaceresv@gmail.com
